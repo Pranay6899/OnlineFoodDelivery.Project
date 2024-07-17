@@ -1,0 +1,117 @@
+<html>
+<head>
+<style>
+.top{
+ background-color:00FFCC;
+}
+.a{
+border:none;
+color:white;
+padding:15px 32px;
+text-align:center;
+text-decoration:none;
+margin:4px 2px;
+}
+.table{
+color:white;
+background-color:#A0A0A0;
+}
+.s{
+background-image:url("world-food-day.png");
+background-repeat:no-repeat;
+background-size:cover;
+
+}
+nav{
+background-color:#585858;
+opacity:80%;
+color:white;
+text-align:center;
+}
+.container{
+
+color:white;
+font-family:"times of roman",sans-serif,arial;
+font-size:40px;
+padding:0px 0px 0px 100px;
+}
+#men{
+  background-color:Green
+  border:solid;
+  color:red ;
+border-radius:50%;
+  font-family:Fantasy;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+box-shadow:0 8px 16px 0 black;
+}
+
+}
+
+</style>
+<head>
+<body>
+<div class="s">
+<nav>
+<h1 style="font-family:Cursive"><u>Next Door Indian RESTArant</u><h1>
+<a href="" class="a">HOME</a>
+<a href="" class="a">MENU</a>
+<a href="" class="a">ORDER</a>
+<a href="customer.html" class="a">CUSTOMER</a>
+<a href="" class="a">PAYMENT STATUS</a>
+</nav>
+<div class="container">
+<h1>Are You Hungry?</h1>
+<p>Don't wait!!!</p>
+<p>Let start to order food now</p>
+<input type="submit" value="CHECK MENU" id="men">
+</div>
+</div>
+<hr>
+<div class="top">
+<center>
+<h2>TOP FAVORITE FOOD</h2>
+<table style="font-size:20px;cell-padding:10px;">
+<tr>
+<td>
+<figure>
+<img src="tandoori.jpeg" height=180px width=180px>
+<figcaption>TANDOORI CHICKEN:<br> <Strike>$740</strike>$540</td></figcaption>
+</figure>
+<td>
+<figure>
+<img src="butter.jpeg" height=180px width=180px>
+<figcaption>BUTTER CHICKEN:<br><strike>$500</strike>$350</td></figcaption>
+</figure>
+</tr>
+</table>
+</center>
+</div>
+<hr>
+<div class="table">
+<table>
+<tr>
+<th>
+<h2>About our restanrant</h2>
+</th>
+<th>
+<h2>SERVICE OFFER</h2>
+</th>
+</tr>
+<tr>
+<td>
+<p>VOLT restanrant famous for food lovers.<br>our aim is make people happy and let them enjoy the food<br>.Made my team.VOLT restanrant famous for food lovers<br>.our aim is make people happy and let them enjoy the food<br>.Made my team.</p>
+</td>
+<td style="valign:center">
+<p>Wedding</p>
+<p>Birthday</p>
+<p>Anniversary</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
