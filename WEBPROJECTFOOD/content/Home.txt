@@ -58,7 +58,7 @@ box-shadow:0 8px 16px 0 black;
 <nav>
 <h1 style="font-family:Cursive"><u>Next Door Indian RESTArant</u><h1>
 <a href="" class="a">HOME</a>
-<a href="" class="a">MENU</a>
+<a href="AboutUs.html" class="a">About</a>
 <a href="" class="a">ORDER</a>
 <a href="customer.html" class="a">CUSTOMER</a>
 <a href="" class="a">PAYMENT STATUS</a>
