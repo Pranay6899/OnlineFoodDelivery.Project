@@ -21,7 +21,7 @@
                
                 justify-content: center;
                 display:block;
-                border: 340px  350px;
+                border: 300px  350px;
 
             }
             button:hover{
