@@ -3,11 +3,11 @@
 <title>Menu</title>
 <style>
 .image{
-width:250px;
-height:250px;
+width:10px;
+height:10px;
 }
 #top{
-font-size:50px;
+font-size:30px;
 
 }
 .search{
@@ -18,7 +18,6 @@ font-size:50px;
   }
 .column {
 float:left;
-width: 15%;
 padding: 5px;
 }
 .row {
@@ -69,31 +68,31 @@ button:hover{
 <nav>
 <div class="row">
 <div class="column">
-<img src="images.jpeg" class="image" alt="chicken" style="width:100%">
+<img src="images.jpeg" class="image" alt="chicken">
 <h2>Chicken Biryani</h2>
 <h4>Rs.300</h4>
 <button onclick="">ADD</a>
 </div>
 <div class="column">
-<img src="mutton.jpg" class="image" alt="mutton"style="width:100%" >
+<img src="mutton.jpg" class="image" alt="mutton">
 <h2>Mutton Biryani</h2>
 <h5>Rs.450</h5>
 <button onclick="">ADD</a>
 </div>
 <div class="column">
-    <img src="download.jpeg" class="image" alt="mutton" style="width:100%">
+    <img src="download.jpeg" class="image" alt="mutton">
     <h2>Fish Biryani</h2>
     <h5>Rs.390</h5>
     <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download3.jpeg" class="image" alt="boneless" style="width:100%">
+        <img src="download3.jpeg" class="image" alt="boneless">
         <h2>boneless chickenBiryani</h2>
         <h5>Rs.440</h5>
         <button onclick="">ADD</a>
         </div>
         <div class="column">
-            <img src="download4.jpeg" class="image" alt="prawns" style="width:100%">
+            <img src="download4.jpeg" class="image" alt="prawns">
             <h2>prawns Biryani</h2>
             <h5>Rs.320</h5>
             <button onclick="">ADD</a>
@@ -105,19 +104,19 @@ button:hover{
 
 <div class="row">
     <div class="column">
-        <img src="download5.jpeg" class="image" alt="lunch" style="width:100%">
+        <img src="download5.jpeg" class="image" alt="lunch">
         <h2>Bonda</h2>
         <h5>RS.35</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download6.jpeg" class="image" alt="lunch" style="width:100%">
+        <img src="download6.jpeg" class="image" alt="lunch">
         <h2>Idli</h2>
         <h5>Rs.40</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download7.jpeg" class="image" alt="lunch" style="width:100%">
+        <img src="download7.jpeg" class="image" alt="lunch">
         <h2>Puri</h2>
         <h5>Rs.30</h5>
         <button onclick="">ADD</a>
@@ -128,19 +127,19 @@ button:hover{
 
     <div class="row">
         <div class="column">
-            <img src="download8.jpeg" class="image" alt="luch" style="width:100%">
+            <img src="download8.jpeg" class="image" alt="luch">
             <h2>Roti Rice</h2>
             <h5>RS.250</h5>
             <button onclick="">ADD</a>
         </div>
         <div class="column">
-            <img src="download9.jpeg" class="image" alt="luch" style="width:100%">
+            <img src="download9.jpeg" class="image" alt="luch">
             <h2>Full meals</h2>
             <h5>Rs.300</h5>
             <button onclick="">ADD</a>
         </div>
         <div class="column">
-            <img src="download10.jpeg" class="image" alt="luch" style="width:100%">
+            <img src="download10.jpeg" class="image" alt="luch">
             <h2>Veg thali</h2>
             <h5>Rs.550</h5>
             <button onclick="">ADD</a>
@@ -150,19 +149,19 @@ button:hover{
 <h2 id="top"><u>Starters</u></h2>
 <div class="row">
     <div class="column">
-        <img src="download11.jpeg" class="image" alt="luch" style="width:100%">
+        <img src="download11.jpeg" class="image" alt="luch">
         <h2>kababs</h2>
         <h5>Rs.330</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download12.jpeg" class="image" alt="luch" style="width:100%">
+        <img src="download12.jpeg" class="image" alt="luch">
         <h2>panner tikka</h2>
         <h5>Rs.250</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download13.jpeg" class="image" alt="luch" style="width:100%">
+        <img src="download13.jpeg" class="image" alt="luch">
         <h2>kakori kababs</h2>
         <h5>Rs.290</h5>
         <button onclick="">ADD</a>
@@ -171,19 +170,19 @@ button:hover{
 <h2 id="top"><u>SoftDrinks</u></h2>
 <div class="row">
     <div class="column">
-        <img src="download14.jpeg" class="image" alt="" style="width:100%">
+        <img src="download14.jpeg" class="image" alt="" >
         <h2>cokezero</h2>
         <h5>Rs.150</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download15.jpeg" class="image" alt="" style="width:100%">
+        <img src="download15.jpeg" class="image" alt="">
         <h2>Fanta</h2>
         <h5>Rs.180</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download16.jpeg" class="image" alt="" style="width:100%">
+        <img src="download16.jpeg" class="image" alt="" >
         <h2>diet pepsi</h2>
         <h5>Rs.200</h5>
         <button onclick="">ADD</a>
@@ -192,19 +191,19 @@ button:hover{
 <h2 id="top"><u>Desserts</u></h2>
 <div class="row">
     <div class="column">
-        <img src="download17.jpeg" class="image" alt="" style="width:100%">
+        <img src="download17.jpeg" class="image" alt="">
         <h2>Vanilla Ice-Cream</h2>
         <h5>Rs.200</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download18.jpeg" class="image" alt="" style="width:100%">
+        <img src="download18.jpeg" class="image" alt="">
         <h2>Applepie Ice-Cream</h2>
         <h5>Rs.190</h5>
         <button onclick="">ADD</a>
     </div>
     <div class="column">
-        <img src="download19.jpeg" class="image" alt="" style="width:100%">
+        <img src="download19.jpeg" class="image" alt="">
         <h2>Cholocate Browine</h2>
         <h5>Rs.250</h5>
         <button onclick="">ADD</a>
