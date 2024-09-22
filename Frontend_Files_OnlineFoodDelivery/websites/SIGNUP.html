@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('SIGNUP BG.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            background-image:url(SIGNUP\ IMAGE.jpg)
+        }
+        .center {
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .center h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .center p {
+            font-size: 24px;
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="Home.html" method="post">
+        <div class="center">
+            <h1>SIGN UP</h1>
+            <p>Create an account to start ordering!</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" name="username" placeholder="Username" required>
+                        <br><br>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <br><br>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <br><br>
+                        <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+                        <br><br>
+                        <input type="submit" value="Sign Up">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <div class="row">
+                    <div class="col">
+                        <a href="LOGIN.html" style="color:white" class="btn" onclick= open(LOGIN.html);>Already have an account? Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
