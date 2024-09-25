@@ -1,4 +1,5 @@
-package fooddelivery;
+package EntityClass;
+
 public class Driver {
     private int driverId;
     private String name;

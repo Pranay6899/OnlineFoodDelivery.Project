@@ -2,68 +2,48 @@ package fooddelivery;
 import java.util.Date;
 
 public class Payment {
-    private int paymentID;
-    private int orderID;
-    private String paymentMethod;
-    private Date paymentDate;
+    private int payment_id;
+    private int order_id;
     private double amount;
+    private String payment_method;
 
     // Constructor
-    public Payment(int paymentID, int orderID, String paymentMethod, Date paymentDate, double amount) {
-        this.paymentID = paymentID;
-        this.orderID = orderID;
-        this.paymentMethod = paymentMethod;
-        this.paymentDate = paymentDate;
+    public Payment(int payment_id, int order_id,double amount,String payment_method) {
+        this.payment_id = payment_id;
+        this.order_id = order_id;
         this.amount = amount;
+        this.payment_method = payment_method;
     }
 
     // Getters and setters
-    public int getPaymentID() {
-        return paymentID;
+    public int getPayment_id() {
+        return payment_id;
     }
 
-    public void setPaymentID(int paymentID) {
-        this.paymentID = paymentID;
+    public void setPayment_id(int payment_id) {
+        this.payment_id= payment_id;
     }
 
-    public int getOrderID() {
-        return orderID;
+    public int getOrder_id() {
+        return order_id;
     }
 
-    public void setOrderID(int orderID) {
-        this.orderID = orderID;
+    public void setOrder_id(int order_id) {
+        this.order_id = order_id;
     }
-
-    public String getPaymentMethod() {
-        return paymentMethod;
-    }
-
-    public void setPaymentMethod(String paymentMethod) {
-        this.paymentMethod = paymentMethod;
-    }
-
-    public Date getPaymentDate() {
-        return paymentDate;
-    }
-
-    public void setPaymentDate(Date paymentDate) {
-        this.paymentDate = paymentDate;
-    }
-
     public double getAmount() {
-        return amount;
+    	return amount;
+    }
+    
+    public void setAmount(double amount) {
+    	this.amount = amount;
     }
 
-    public void setAmount(double amount) {
-        this.amount = amount;
+    public String getPayment_method() {
+        return payment_method;
     }
-    public void display() {
-        System.out.println("Payment Details:");
-        System.out.println("Payment ID: " + paymentID);
-        System.out.println("Order ID: " + orderID);
-        System.out.println("Payment Method: " + paymentMethod);
-        System.out.println("Payment Date: " + paymentDate);
-        System.out.println("Amount: $" + amount);
-        System.out.println();
+
+    public void setPayment_method(String payment_method) {
+        this.payment_method = payment_method;
     }
 }

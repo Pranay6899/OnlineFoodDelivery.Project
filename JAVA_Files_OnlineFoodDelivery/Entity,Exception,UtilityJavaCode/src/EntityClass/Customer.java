@@ -1,4 +1,4 @@
-package fooddelivery;
+package EntityClass;
 
 public class Customer {
 	private int customerId;

@@ -1,58 +1,35 @@
 package fooddelivery;
 
-public class Menu {
-    private int menuID;
-    private int restaurantID;
-    private String itemName;
-    private double price;
-    public Menu(int menuID, int restaurantID, String itemName, double price) {
-        this.menuID = menuID;
-        this.restaurantID = restaurantID;
-        this.itemName = itemName;
+public class MENU {
+    Long menuId;
+    Long restaurantId;
+    String name;
+    String description;
+    Double price;
+    MENU(Long restaurantId, String name, String description, Double price) {
+        this.restaurantId = restaurantId;
+        this.name = name;
+        this.description = description;
         this.price = price;
     }
 
-    // Getters
-    public int getMenuID() {
-        return menuID;
+    public Long getMenuId() {
+        return menuId;
     }
 
-    public int getRestaurantID() {
-        return restaurantID;
+    public Long getRestaurantId() {
+        return restaurantId;
     }
 
-    public String getItemName() {
-        return itemName;
+    public String getName() {
+        return name;
     }
 
-    public double getPrice() {
+    public String getDescription() {
+        return description;
+    }
+
+    public Double getPrice() {
         return price;
-    }
-
-    // Setters
-    public void setMenuID(int menuID) {
-        this.menuID = menuID;
-    }
-
-    public void setRestaurantID(int restaurantID) {
-        this.restaurantID = restaurantID;
-    }
-
-    public void setItemName(String itemName) {
-        this.itemName = itemName;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    // Display method
-    public void display() {
-        System.out.println("Menu Details:");
-        System.out.println("Menu ID: " + menuID);
-        System.out.println("Restaurant ID: " + restaurantID);
-        System.out.println("Item Name: " + itemName);
-        System.out.println("Price: $" + price);
-        System.out.println();
     }
 }

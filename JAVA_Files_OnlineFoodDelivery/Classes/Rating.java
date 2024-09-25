@@ -1,5 +1,3 @@
-package fooddelivery;
-
 public class Rating {
     private int ratingID;
     private int orderID;

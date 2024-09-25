@@ -1,5 +1,4 @@
-package fooddelivery;
-import java.util.Date;
+package EntityClass;
 
 public class Delivery {
     private int deliveryId;   // Unique ID for the delivery
