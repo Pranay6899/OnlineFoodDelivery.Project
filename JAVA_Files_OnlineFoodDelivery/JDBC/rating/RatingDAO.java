@@ -12,7 +12,7 @@ public class RatingDAO {
 			Statement stm=con.createStatement();
 			ResultSet rs=stm.executeQuery("Select * from rating");
 			while(rs.next()) {
-				Rating rt=new Rating(rs.getInt("ratingID"),rs.getInt("orderID"),rs.getString("rating"),rs.getString("review"));
+				Rating rt=new Rating(rs.getInt("rating_id"),rs.getInt("order_id"),rs.getString("stars"),rs.getString("comment"));
 					rl.add(rt);
 			}
 		}

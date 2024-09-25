@@ -19,7 +19,6 @@ public class MenuDAO {
             // Iterating through the ResultSet to create MENU objects
             while (rs.next()) {
                 MENU menu = new MENU(
-                    rs.getLong("menu_id"),          // Fetching menu_id
                     rs.getLong("restaurant_id"),    // Fetching restaurant_id
                     rs.getString("name"),           // Fetching name
                     rs.getString("description"),    // Fetching description

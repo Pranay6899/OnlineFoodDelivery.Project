@@ -6,7 +6,7 @@ class Promotion{
 	private Date startDate;
 	private Date endDate;
 	
-	public Promotion(int promotionId,String promotionDetails,Date startDate,Date endDate) {
+	public Promotion(int promotionId,int restaurantId,String promotionDetails,Date startDate,Date endDate) {
 		this.promotionId=promotionId;
 		this.promotionDetails=promotionDetails;
 		this.startDate=startDate;

@@ -5,8 +5,7 @@ public class MENU {
     String name;
     String description;
     Double price;
-    MENU(Long menuId, Long restaurantId, String name, String description, Double price) {
-        this.menuId = menuId;
+    MENU(Long restaurantId, String name, String description, Double price) {
         this.restaurantId = restaurantId;
         this.name = name;
         this.description = description;

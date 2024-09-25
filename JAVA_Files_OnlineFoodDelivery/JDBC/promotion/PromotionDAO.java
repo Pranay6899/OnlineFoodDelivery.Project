@@ -14,7 +14,7 @@ public class PromotionDAO {
 				Statement stm=con.createStatement();
 				ResultSet rs=stm.executeQuery("Select * from Promotion");
 				while(rs.next()) {
-					Promotion prm=new Promotion(rs.getInt("promotionId"),rs.getString("promotionDetails"),rs.getDate("startDate"),rs.getDate("endDate"));
+					Promotion prm=new Promotion(rs.getInt("promotion_id"),rs.getInt("restaurant_id"),rs.getString("promotion_details"),rs.getDate("start_date"),rs.getDate("end_date"));
 					pr.add(prm);
 					
 				}
