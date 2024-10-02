@@ -20,5 +20,5 @@ VALUES
     (9, 511, 'Item 9', 'Description 9', 13.99),
     (10,514, 'Item 10', 'Description 10', 10.49);
     select * from foodweb.Menu;
-    alter table foodweb.Menu drop column menu_id;
+  
 
