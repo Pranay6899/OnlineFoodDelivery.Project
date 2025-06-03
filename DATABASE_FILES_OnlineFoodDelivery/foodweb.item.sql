@@ -5,3 +5,4 @@ insert into item values("Shawarma");
 insert into item values("Fried Rice");
 insert into item values("Meals");
 select * from item;
+drop table item;

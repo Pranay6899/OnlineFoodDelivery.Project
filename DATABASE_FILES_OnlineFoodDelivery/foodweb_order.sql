@@ -9,7 +9,6 @@ CREATE TABLE foodweb.order (
     FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
     FOREIGN KEY (restaurant_id) REFERENCES Restaurant(restaurant_id)
 );
-
 INSERT INTO foodweb.order (order_id, customer_id, restaurant_id, delivery_address, total_price, status)
 VALUES
     (1, 1, 511, 'Delivery Address 1', 25.99, 'Pending'),
