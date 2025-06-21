@@ -3,8 +3,8 @@ package customer;
 public class Customer{
 	private int customerId;
 	private String customerName;
-    private String phoneNumber;
-    private String address;
+        private String phoneNumber;
+        private String address;
 
 	public Customer(int customerId,String customerName,String address,String phone){
 		this.customerId=customerId;
